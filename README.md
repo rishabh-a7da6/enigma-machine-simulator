@@ -1,8 +1,12 @@
-# Enigma Machine Simulator
+# 🔐 Enigma Machine Simulator
 
 A Python-based Enigma Machine simulator with a Streamlit web interface. This application mimics the behavior of the historical Enigma I (Wehrmacht/Heer) machine used during World War II.
 
-## Features
+## 📸 Screenshots
+
+![Demo](./screenshots/app.png)
+
+## ✨ Features
 
 - **Full Enigma I Simulation**:
   - Support for Rotors I, II, III, IV, and V.
@@ -14,7 +18,7 @@ A Python-based Enigma Machine simulator with a Streamlit web interface. This app
 - **Web Interface**: Clean and easy-to-use interface built with Streamlit.
 - **Batch Processing**: Encode or decode full sentences at once.
 
-## Installation
+## ⚙️ Installation
 
 1.  **Clone the repository** (or navigate to the directory).
 2.  **Create the Conda environment**:
@@ -26,7 +30,7 @@ A Python-based Enigma Machine simulator with a Streamlit web interface. This app
     conda activate enigma-env
     ```
 
-## Usage
+## 🚀 Usage
 
 1.  **Run the application**:
     ```bash
@@ -41,9 +45,12 @@ A Python-based Enigma Machine simulator with a Streamlit web interface. This app
     - The encoded/decoded text will appear in the "Output" box.
     - *Note*: Enigma is reciprocal. To decode, reset the machine to the **same settings** used for encoding and enter the ciphertext.
 
-## Project Structure
+## 📂 Project Structure
 
 - `main.py`: Entry point for the Streamlit application.
 - `enigma.py`: Core logic for the Enigma Machine (Rotors, Plugboard, Reflector).
-- `conda-enigma-env.yml`: Environment dependencies.
+- `ENIGMA_EXPLAINED.md`: Detailed explanation of the Enigma Machine's inner workings.
+- `conda-enigma-env.yml`: Environment dependencies file.
+- `screenshots/`: Directory containing application screenshots.
+- `LICENSE`: Project license file.
 - `README.md`: This file.
